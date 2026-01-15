@@ -2,7 +2,8 @@
     width: 200px;
     text-align: center;
     background-color: rgb(146, 146, 246);    
-    padding:10px
+    padding:10px;
+    border: 0px;
 }
 
 .heading{
