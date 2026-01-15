@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Secure Website Blocker",
+  "version": "1.0",
+  "description": "Blocks selected websites",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.box{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(146, 146, 246);    
+    padding:10px
+}
+
+.heading{
+    color: white;
+    font-size:large;
+    padding:2px
+    
+}
+
+.button{
+    background-color: white;
+    padding: 15px;
+    border-color: white;
+    font-weight: 600;
+}
